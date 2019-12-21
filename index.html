@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Memory Game</title>
+</head>
+<body>
+    <header class="timer">
+        <h4>Instruction</h4>
+        <ol id="instruction">
+            <li>Enter User Name</li>
+            <li>Spacebar To Start Time</li>
+            <li>Solve Game</li>
+            <li>Spacebar To Stop Time</li>
+        </ol>
+        <form id="user-form">
+            <input type="text" name="username" id="username" placeholder="User_Name(No Space)">
+        </form>
+        <div id="timer">
+            <h2 id="minute">00</h2>
+            <h2>:</h2>
+            <h2 id="second">00</h2>
+        </div>
+        <ul class="user-records">
+            
+        </ul>
+    </header>
+    <section class="memory-game">
+        <div class="memory-card" data-framework="1">
+            <div class="front-face"><img src="./img/11.png"></div>
+            <h1 class="back-face">?</h1>
+        </div>
+        <div class="memory-card" data-framework="1">
+            <div class="front-face"><img src="./img/11.png"></div>
+            <h1 class="back-face">?</h1>
+        </div>
+        <div class="memory-card" data-framework="2">
+            <div class="front-face"><img src="./img/22.png"></div>
+            <h1 class="back-face">?</h1>
+        </div>
+        <div class="memory-card" data-framework="2">
+            <div class="front-face"><img src="./img/22.png"></div>
+            <h1 class="back-face">?</h1>
+        </div>
+        <div class="memory-card" data-framework="3">
+            <div class="front-face"><img src="./img/33.png"></div>
+            <h1 class="back-face">?</h1>
+        </div>
+        <div class="memory-card" data-framework="3">
+            <div class="front-face"><img  src="./img/33.png"></div>
+            <h1 class="back-face">?</h1>
+        </div>
+        <div class="memory-card" data-framework="4">
+            <div class="front-face"><img src="./img/44.png"></div>
+            <h1 class="back-face">?</h1>
+        </div>
+        <div class="memory-card" data-framework="4">
+            <div class="front-face"><img src="./img/44.png"></div>
+            <h1 class="back-face">?</h1>
+        </div>
+        <div class="memory-card" data-framework="5">
+            <div class="front-face"><img src="./img/55.png"></div>
+            <h1 class="back-face">?</h1>
+        </div>
+        <div class="memory-card" data-framework="5">
+            <div class="front-face"><img src="./img/55.png"></div>
+            <h1 class="back-face">?</h1>
+        </div>
+        <div class="memory-card" data-framework="6">
+            <div class="front-face"><img src="./img/66.png"></div>
+            <h1 class="back-face">?</h1>
+        </div>
+        <div class="memory-card" data-framework="6">
+            <div class="front-face"><img src="./img/66.png"></div>
+            <h1 class="back-face">?</h1>
+        </div>
+    </section>
+    <footer class="time-record">
+
+    </footer>
+
+    <script src="./src/index.js"></script>
+</body>
+</html>
